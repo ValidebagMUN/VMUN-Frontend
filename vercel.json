@@ -5,8 +5,8 @@
       "destination": "https://api.validebagmun.org/api"
     },
     {
-      "source": "/api/:path",
-      "destination": "https://api.validebagmun.org/api/:path"
+      "source": "/api/:path*",
+      "destination": "https://api.validebagmun.org/api/:path*"
     }
   ]
 }

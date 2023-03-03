@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/api",
-      "destination": "https://api.validebagmun.org"
+      "source": "/api/(?<path>.*)",
+      "destination": "https://api.validebagmun.org/:path"
     }
   ]
 }

@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/api",
-      "destination": "https://api.validebagmun.org/"
+      "destination": "https://api.validebagmun.org/api"
     },
     {
       "source": "/api/:path",
-      "destination": "https://api.validebagmun.org/:path"
+      "destination": "https://api.validebagmun.org/api/:path"
     }
   ]
 }
